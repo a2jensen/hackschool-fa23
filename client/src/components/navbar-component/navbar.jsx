@@ -3,16 +3,18 @@ import styles from './navbar.module.css';
 
 const NavBar = () => {
     return (
-        // Next uses Link component for prefetching and client-side navigation
-        // which extends the <a> element
         <div id={styles.navbar}>
             <div className={styles.title}>
-                <Link href="/">HackRacer</Link>
+                {/*Link to the home page here!*/}
+                <Link href="/"></Link>
             </div>
+
+            {/* Link to other pages here */}
             <div className={styles.nav_buttons}>
+                <Link href="/gameHistory">History</Link>
                 <Link href="/gamePage">Play Game</Link>
-                <Link href="/history"> History </Link>
             </div>
+
         </div>
     )
 }
