@@ -16,4 +16,4 @@ Part 2 (10/18) - JavaScript & Node.js - [Slide Deck](https://acmurl.com/hackscho
 
 Part 3 (10/25) - React & Next.js - [Slide Deck](https://acmurl.com/hackschool-3-slides) - [Code](https://github.com/acmucsd/hackschool-fa23/tree/part3) - [Recording](https://acmurl.com/hackschool-3-video)
 
-Part 4 (11/1) - APIs and Express - [Slide Deck](https://acmurl.com/hackschool-4-slides) - [Code](https://github.com/acmucsd/hackschool-fa23/tree/part4) - [Recording](https://acmurl.com/hackschool-4-video)
+Part 2 (10/18) - JavaScript & Node.js - [Slide Deck](https://acmurl.com/hackschoolfa23-2) - [Code](https://github.com/acmucsd/hackschool-fa23/tree/part2) - [Recording](https://acmurl.com/hackschool2-video)
