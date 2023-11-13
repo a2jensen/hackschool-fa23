@@ -8,7 +8,7 @@ function Home() {
     <div className={styles.main}>
         <div className={styles.welcome}>
           <h2>Welcome To HackRacer!</h2>
-          <p>You can navigae to <i>Add Sentence</i> button at the top to add a new sentence. Then You
+          <p>You can navigate to <i>Add Sentence</i> button at the top to add a new sentence. Then You
           can go over to <i>Play Game</i> to start playing the game.</p>
       </div>
       <div className={styles.image}>
