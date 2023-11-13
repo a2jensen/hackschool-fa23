@@ -1,18 +1,21 @@
-const getGame = async (req, res) => {
+const router = require("../routes/gameRoutes");
 
+const getGame = async (req, res) => {
     const game = {
-            sentence: 'Hello there!',
-            correctCharacters: 12,
-            incorrectCharacters: 0,
-            wpm: 100,
-            time: 13.33
-        }
+        sentence: "Hello there!",
+        correctCharacters: 14,
+        incorrectCharacters: 15,
+        wpm: 100,
+        time: 13.33
+    };
 
     res.status(200).json(game);
+
 }
 
-const postGame = async (req, res) => {
 
+const postGame = async (req, res) => {
+    
     const { game } = req.body;
     const { sentence, correctCharacters, incorrectCharacters, wpm, time } = game;
 
@@ -27,7 +30,5 @@ const postGame = async (req, res) => {
         res.status(200).json({ game })
     }
 }
-
-
 
 module.exports = { getGame, postGame };
