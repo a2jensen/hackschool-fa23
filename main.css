@@ -1,0 +1,57 @@
+#navbar {
+    background-color: #f9a857;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    padding: 25px;
+}
+
+.title a {
+    color: white;
+    font-size: 35px;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-buttons a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* Styling the table cells */
+.cell {
+    width: 100px;
+    padding: 10px;
+    border: 1px black solid;
+    background-color: #f1f1f1;
+}
+
+/* Styling the table area */
+.table {
+    margin: auto;
+    padding-top: 50px;
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+/* Styling the rows */
+.row-header {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Styling the rows */
+.row {
+    display: flex;
+    flex-direction: row;
+}
