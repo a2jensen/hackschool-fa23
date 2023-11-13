@@ -11,8 +11,8 @@ const NavBar = () => {
 
             {/* Link to other pages here */}
             <div className={styles.nav_buttons}>
-                <Link href="/gameHistory">History</Link>
                 <Link href="/gamePage">Play Game</Link>
+                <Link href="/history"> History </Link>
             </div>
 
         </div>
