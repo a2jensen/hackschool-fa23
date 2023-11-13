@@ -7,7 +7,7 @@ dotenv.config();
 // create a config object with PORT 
 const config = {
     PORT: process.env.PORT,
-    DB_URL: provess.env.DB_URL
+    DB_URL: process.env.DB_URL
 }
 
 
